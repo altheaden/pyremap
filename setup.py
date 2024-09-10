@@ -11,6 +11,7 @@ install_requires = \
      'scipy',
      'xarray>=0.10.0']
 
+# TODO: Test change
 here = os.path.abspath(os.path.dirname(__file__))
 with open(os.path.join(here, 'pyremap', '__init__.py')) as f:
     init_file = f.read()
