@@ -31,7 +31,7 @@ jobs:
 
       - name: Apply and commit updates
         run: |
-          git clone https://github.com/MPAS-Dev/pyremap.git update-pre-commit-deps
+          git clone https://github.com/altheaden/pyremap.git update-pre-commit-deps
           cd update-pre-commit-deps
           # Configure git using GitHub Actions credentials.
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
